@@ -6,63 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		FF163BFC2D25A182009AFF4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF163BE12D25A180009AFF4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF163BE82D25A180009AFF4E;
-			remoteInfo = EniFood;
-		};
-		FF163C062D25A182009AFF4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF163BE12D25A180009AFF4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF163BE82D25A180009AFF4E;
-			remoteInfo = EniFood;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FF163BE92D25A180009AFF4E /* EniFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EniFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF163BFB2D25A182009AFF4E /* EniFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EniFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF163C052D25A182009AFF4E /* EniFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EniFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA356552D2AC79800187CC1 /* EniFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EniFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FF163BEB2D25A180009AFF4E /* EniFood */ = {
+		FFA356572D2AC79800187CC1 /* EniFood */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = EniFood;
-			sourceTree = "<group>";
-		};
-		FF163BFE2D25A182009AFF4E /* EniFoodTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EniFoodTests;
-			sourceTree = "<group>";
-		};
-		FF163C082D25A182009AFF4E /* EniFoodUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EniFoodUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF163BE62D25A180009AFF4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163BF82D25A182009AFF4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163C022D25A182009AFF4E /* Frameworks */ = {
+		FFA356522D2AC79800187CC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF163BE02D25A180009AFF4E = {
+		FFA3564C2D2AC79800187CC1 = {
 			isa = PBXGroup;
 			children = (
-				FF163BEB2D25A180009AFF4E /* EniFood */,
-				FF163BFE2D25A182009AFF4E /* EniFoodTests */,
-				FF163C082D25A182009AFF4E /* EniFoodUITests */,
-				FF163BEA2D25A180009AFF4E /* Products */,
+				FFA356572D2AC79800187CC1 /* EniFood */,
+				FFA356562D2AC79800187CC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FF163BEA2D25A180009AFF4E /* Products */ = {
+		FFA356562D2AC79800187CC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF163BE92D25A180009AFF4E /* EniFood.app */,
-				FF163BFB2D25A182009AFF4E /* EniFoodTests.xctest */,
-				FF163C052D25A182009AFF4E /* EniFoodUITests.xctest */,
+				FFA356552D2AC79800187CC1 /* EniFood.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF163BE82D25A180009AFF4E /* EniFood */ = {
+		FFA356542D2AC79800187CC1 /* EniFood */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF163C0F2D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFood" */;
+			buildConfigurationList = FFA356632D2AC79A00187CC1 /* Build configuration list for PBXNativeTarget "EniFood" */;
 			buildPhases = (
-				FF163BE52D25A180009AFF4E /* Sources */,
-				FF163BE62D25A180009AFF4E /* Frameworks */,
-				FF163BE72D25A180009AFF4E /* Resources */,
+				FFA356512D2AC79800187CC1 /* Sources */,
+				FFA356522D2AC79800187CC1 /* Frameworks */,
+				FFA356532D2AC79800187CC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FF163BEB2D25A180009AFF4E /* EniFood */,
+				FFA356572D2AC79800187CC1 /* EniFood */,
 			);
 			name = EniFood;
 			packageProductDependencies = (
 			);
 			productName = EniFood;
-			productReference = FF163BE92D25A180009AFF4E /* EniFood.app */;
+			productReference = FFA356552D2AC79800187CC1 /* EniFood.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FF163BFA2D25A182009AFF4E /* EniFoodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF163C122D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFoodTests" */;
-			buildPhases = (
-				FF163BF72D25A182009AFF4E /* Sources */,
-				FF163BF82D25A182009AFF4E /* Frameworks */,
-				FF163BF92D25A182009AFF4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF163BFD2D25A182009AFF4E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FF163BFE2D25A182009AFF4E /* EniFoodTests */,
-			);
-			name = EniFoodTests;
-			packageProductDependencies = (
-			);
-			productName = EniFoodTests;
-			productReference = FF163BFB2D25A182009AFF4E /* EniFoodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FF163C042D25A182009AFF4E /* EniFoodUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF163C152D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFoodUITests" */;
-			buildPhases = (
-				FF163C012D25A182009AFF4E /* Sources */,
-				FF163C022D25A182009AFF4E /* Frameworks */,
-				FF163C032D25A182009AFF4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF163C072D25A182009AFF4E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FF163C082D25A182009AFF4E /* EniFoodUITests */,
-			);
-			name = EniFoodUITests;
-			packageProductDependencies = (
-			);
-			productName = EniFoodUITests;
-			productReference = FF163C052D25A182009AFF4E /* EniFoodUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF163BE12D25A180009AFF4E /* Project object */ = {
+		FFA3564D2D2AC79800187CC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FF163BE82D25A180009AFF4E = {
+					FFA356542D2AC79800187CC1 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					FF163BFA2D25A182009AFF4E = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = FF163BE82D25A180009AFF4E;
-					};
-					FF163C042D25A182009AFF4E = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = FF163BE82D25A180009AFF4E;
 					};
 				};
 			};
-			buildConfigurationList = FF163BE42D25A180009AFF4E /* Build configuration list for PBXProject "EniFood" */;
+			buildConfigurationList = FFA356502D2AC79800187CC1 /* Build configuration list for PBXProject "EniFood" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FF163BE02D25A180009AFF4E;
+			mainGroup = FFA3564C2D2AC79800187CC1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FF163BEA2D25A180009AFF4E /* Products */;
+			productRefGroup = FFA356562D2AC79800187CC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF163BE82D25A180009AFF4E /* EniFood */,
-				FF163BFA2D25A182009AFF4E /* EniFoodTests */,
-				FF163C042D25A182009AFF4E /* EniFoodUITests */,
+				FFA356542D2AC79800187CC1 /* EniFood */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF163BE72D25A180009AFF4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163BF92D25A182009AFF4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163C032D25A182009AFF4E /* Resources */ = {
+		FFA356532D2AC79800187CC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF163BE52D25A180009AFF4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163BF72D25A182009AFF4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF163C012D25A182009AFF4E /* Sources */ = {
+		FFA356512D2AC79800187CC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +124,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FF163BFD2D25A182009AFF4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF163BE82D25A180009AFF4E /* EniFood */;
-			targetProxy = FF163BFC2D25A182009AFF4E /* PBXContainerItemProxy */;
-		};
-		FF163C072D25A182009AFF4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF163BE82D25A180009AFF4E /* EniFood */;
-			targetProxy = FF163C062D25A182009AFF4E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		FF163C0D2D25A183009AFF4E /* Debug */ = {
+		FFA356612D2AC79A00187CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		FF163C0E2D25A183009AFF4E /* Release */ = {
+		FFA356622D2AC79A00187CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +244,7 @@
 			};
 			name = Release;
 		};
-		FF163C102D25A183009AFF4E /* Debug */ = {
+		FFA356642D2AC79A00187CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +273,7 @@
 			};
 			name = Debug;
 		};
-		FF163C112D25A183009AFF4E /* Release */ = {
+		FFA356652D2AC79A00187CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,121 +299,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FF163C132D25A183009AFF4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLNT49BZ43;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EniFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EniFood";
-			};
-			name = Debug;
-		};
-		FF163C142D25A183009AFF4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLNT49BZ43;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EniFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EniFood";
-			};
-			name = Release;
-		};
-		FF163C162D25A183009AFF4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLNT49BZ43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EniFood;
-			};
-			name = Debug;
-		};
-		FF163C172D25A183009AFF4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLNT49BZ43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EniFood;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF163BE42D25A180009AFF4E /* Build configuration list for PBXProject "EniFood" */ = {
+		FFA356502D2AC79800187CC1 /* Build configuration list for PBXProject "EniFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF163C0D2D25A183009AFF4E /* Debug */,
-				FF163C0E2D25A183009AFF4E /* Release */,
+				FFA356612D2AC79A00187CC1 /* Debug */,
+				FFA356622D2AC79A00187CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF163C0F2D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFood" */ = {
+		FFA356632D2AC79A00187CC1 /* Build configuration list for PBXNativeTarget "EniFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF163C102D25A183009AFF4E /* Debug */,
-				FF163C112D25A183009AFF4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF163C122D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFoodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF163C132D25A183009AFF4E /* Debug */,
-				FF163C142D25A183009AFF4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF163C152D25A183009AFF4E /* Build configuration list for PBXNativeTarget "EniFoodUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF163C162D25A183009AFF4E /* Debug */,
-				FF163C172D25A183009AFF4E /* Release */,
+				FFA356642D2AC79A00187CC1 /* Debug */,
+				FFA356652D2AC79A00187CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF163BE12D25A180009AFF4E /* Project object */;
+	rootObject = FFA3564D2D2AC79800187CC1 /* Project object */;
 }
