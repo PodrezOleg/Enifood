@@ -11,7 +11,7 @@ import SwiftUI
 struct EniFoodRandomApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddEniFoodRandomView()
         }
     }
 }

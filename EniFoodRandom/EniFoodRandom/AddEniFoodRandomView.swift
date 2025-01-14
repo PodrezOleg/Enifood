@@ -21,22 +21,22 @@ struct AddEniFoodRandomView: View {
     @State private var imageData: Data? = nil
     
     var body: some View {
-        
-        VStack (spacing: 10){
-            addInfoEniFood(title: "Блюдо", text: $name)
-            addInfoEniFood(title: "Категория", text: $category)
-            addInfoEniFood(title: "Ингриденты", text: $ingredients)
-            AddPhotoView(selectedImage: $selectedImage, imageData: $imageData)
-            
-                .navigationTitle("Добавить Блюдо")
-                .foregroundStyle(.white)
+            NavigationView {
+                VStack(spacing: 10) {
+                    addInfoEniFood(title: "Блюдо", text: $name)
+                    addInfoEniFood(title: "Категория", text: $category)
+                    addInfoEniFood(title: "Ингредиенты", text: $ingredients)
+                    AddPhotoView(selectedImage: $selectedImage, imageData: $imageData)
+                }
                 .padding()
-            
+                .navigationTitle("Добавить блюдо")
+                .navigationBarTitleDisplayMode(.inline)
+            }
         }
+   
     }
-  
-        
-        }
+
+
 
 
 #Preview {
