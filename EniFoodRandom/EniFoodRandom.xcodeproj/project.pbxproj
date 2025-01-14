@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FFA356552D2AC79800187CC1 /* EniFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EniFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1A95752D35DEA200C1CF53 /* EniFoodRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EniFoodRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FFA356572D2AC79800187CC1 /* EniFood */ = {
+		FF1A95772D35DEA200C1CF53 /* EniFoodRandom */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EniFood;
+			path = EniFoodRandom;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FFA356522D2AC79800187CC1 /* Frameworks */ = {
+		FF1A95722D35DEA200C1CF53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FFA3564C2D2AC79800187CC1 = {
+		FF1A956C2D35DEA200C1CF53 = {
 			isa = PBXGroup;
 			children = (
-				FFA356572D2AC79800187CC1 /* EniFood */,
-				FFA356562D2AC79800187CC1 /* Products */,
+				FF1A95772D35DEA200C1CF53 /* EniFoodRandom */,
+				FF1A95762D35DEA200C1CF53 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FFA356562D2AC79800187CC1 /* Products */ = {
+		FF1A95762D35DEA200C1CF53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFA356552D2AC79800187CC1 /* EniFood.app */,
+				FF1A95752D35DEA200C1CF53 /* EniFoodRandom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFA356542D2AC79800187CC1 /* EniFood */ = {
+		FF1A95742D35DEA200C1CF53 /* EniFoodRandom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFA356632D2AC79A00187CC1 /* Build configuration list for PBXNativeTarget "EniFood" */;
+			buildConfigurationList = FF1A95832D35DEA500C1CF53 /* Build configuration list for PBXNativeTarget "EniFoodRandom" */;
 			buildPhases = (
-				FFA356512D2AC79800187CC1 /* Sources */,
-				FFA356522D2AC79800187CC1 /* Frameworks */,
-				FFA356532D2AC79800187CC1 /* Resources */,
+				FF1A95712D35DEA200C1CF53 /* Sources */,
+				FF1A95722D35DEA200C1CF53 /* Frameworks */,
+				FF1A95732D35DEA200C1CF53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FFA356572D2AC79800187CC1 /* EniFood */,
+				FF1A95772D35DEA200C1CF53 /* EniFoodRandom */,
 			);
-			name = EniFood;
+			name = EniFoodRandom;
 			packageProductDependencies = (
 			);
-			productName = EniFood;
-			productReference = FFA356552D2AC79800187CC1 /* EniFood.app */;
+			productName = EniFoodRandom;
+			productReference = FF1A95752D35DEA200C1CF53 /* EniFoodRandom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FFA3564D2D2AC79800187CC1 /* Project object */ = {
+		FF1A956D2D35DEA200C1CF53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FFA356542D2AC79800187CC1 = {
+					FF1A95742D35DEA200C1CF53 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = FFA356502D2AC79800187CC1 /* Build configuration list for PBXProject "EniFood" */;
+			buildConfigurationList = FF1A95702D35DEA200C1CF53 /* Build configuration list for PBXProject "EniFoodRandom" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FFA3564C2D2AC79800187CC1;
+			mainGroup = FF1A956C2D35DEA200C1CF53;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FFA356562D2AC79800187CC1 /* Products */;
+			productRefGroup = FF1A95762D35DEA200C1CF53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFA356542D2AC79800187CC1 /* EniFood */,
+				FF1A95742D35DEA200C1CF53 /* EniFoodRandom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FFA356532D2AC79800187CC1 /* Resources */ = {
+		FF1A95732D35DEA200C1CF53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FFA356512D2AC79800187CC1 /* Sources */ = {
+		FF1A95712D35DEA200C1CF53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FFA356612D2AC79A00187CC1 /* Debug */ = {
+		FF1A95812D35DEA500C1CF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		FFA356622D2AC79A00187CC1 /* Release */ = {
+		FF1A95822D35DEA500C1CF53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		FFA356642D2AC79A00187CC1 /* Debug */ = {
+		FF1A95842D35DEA500C1CF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EniFood/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EniFoodRandom/Preview Content\"";
 				DEVELOPMENT_TEAM = MLNT49BZ43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -260,13 +260,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -274,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		FFA356652D2AC79A00187CC1 /* Release */ = {
+		FF1A95852D35DEA500C1CF53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EniFood/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EniFoodRandom/Preview Content\"";
 				DEVELOPMENT_TEAM = MLNT49BZ43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -290,13 +289,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Podrez.EniFoodRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFA356502D2AC79800187CC1 /* Build configuration list for PBXProject "EniFood" */ = {
+		FF1A95702D35DEA200C1CF53 /* Build configuration list for PBXProject "EniFoodRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFA356612D2AC79A00187CC1 /* Debug */,
-				FFA356622D2AC79A00187CC1 /* Release */,
+				FF1A95812D35DEA500C1CF53 /* Debug */,
+				FF1A95822D35DEA500C1CF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFA356632D2AC79A00187CC1 /* Build configuration list for PBXNativeTarget "EniFood" */ = {
+		FF1A95832D35DEA500C1CF53 /* Build configuration list for PBXNativeTarget "EniFoodRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFA356642D2AC79A00187CC1 /* Debug */,
-				FFA356652D2AC79A00187CC1 /* Release */,
+				FF1A95842D35DEA500C1CF53 /* Debug */,
+				FF1A95852D35DEA500C1CF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FFA3564D2D2AC79800187CC1 /* Project object */;
+	rootObject = FF1A956D2D35DEA200C1CF53 /* Project object */;
 }

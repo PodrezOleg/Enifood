@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  EniFood
+//  EniFoodRandom
 //
-//  Created by Oleg Podrez on 5.01.25.
+//  Created by Oleg Podrez on 14.01.25.
 //
 
 import SwiftUI
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    HomeView()
+    ContentView()
 }
