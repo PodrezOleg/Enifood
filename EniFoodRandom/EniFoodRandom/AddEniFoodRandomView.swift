@@ -21,23 +21,22 @@ struct AddEniFoodRandomView: View {
     @State private var imageData: Data? = nil
     
     var body: some View {
-            NavigationView {
-                VStack(spacing: 10) {
-                    addInfoEniFood(title: "Блюдо", text: $name)
-                    addInfoEniFood(title: "Категория", text: $category)
-                    addInfoEniFood(title: "Ингредиенты", text: $ingredients)
-                    AddPhotoView(selectedImage: $selectedImage, imageData: $imageData)
+        NavigationView {
+            VStack(spacing: 10) {
+                addInfoEniFood(title: "Блюдо", text: $name)
+                addInfoEniFood(title: "Категория", text: $category)
+                addInfoEniFood(title: "Ингредиенты", text: $ingredients)
+                AddPhotoView(selectedImage: $selectedImage, imageData: $imageData)
+                ButtonMainPage(title: "Сохранить") {
+                    print("Сохранил")
                 }
-                .padding()
-                .navigationTitle("Добавить блюдо")
-                .navigationBarTitleDisplayMode(.inline)
             }
+            .padding()
+            .navigationTitle("Добавить блюдо")
+            .navigationBarTitleDisplayMode(.inline)
         }
-   
     }
-
-
-
+}
 
 #Preview {
     AddEniFoodRandomView()
@@ -82,12 +81,12 @@ struct AddPhotoView: View {
             ) {
                 Text("Выбрать фотографию")
                     .padding(10)
-                    .foregroundStyle(.green)
+                    .foregroundStyle(.blue)
                     .padding()
                     .frame(maxWidth: .infinity)
                     .frame(height: 50)
                     .background(
-                        Color.orange.opacity(0.3),
+                        Color.orange,
                         in: RoundedRectangle(
                             cornerRadius: 16,
                             style: .continuous))
@@ -109,7 +108,27 @@ struct AddPhotoView: View {
             } else {
                 Text("Фотография не выбрана")
                     .foregroundStyle(.gray)
+                    .dynamicTypeSize(.small)
             }
+        }
+    }
+}
+
+struct ButtonMainPage: View {
+    var title: String
+    var backgroundColor: Color = .orange
+    var action: () -> Void
+    
+    var body: some View {
+        Button(action: action) {
+            Text(title)
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(backgroundColor)
+                .clipShape(RoundedRectangle(cornerSize: .init(width: 16, height: 16)))
+                .shadow(color: .accentColor.opacity(0.2), radius: 4, x: 0, y: 2)
         }
     }
 }
